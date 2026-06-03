@@ -11,8 +11,18 @@
 library(limma)
 library(sva)
 
-geneFile="interGenes.txt"      #?????б??ļ?
-setwd("C:\\Users\\1\\Desktop\\11")      #???ù???Ŀ¼
+geneFile <- "interGenes.txt"
+
+# Set working directory to the data folder
+# If running from scripts/, use ../data; adjust as needed
+if (!dir.exists("data")) dir.create("data")
+if (file.exists(file.path("data", geneFile))) {
+  setwd("data")
+} else if (file.exists(geneFile)) {
+  # Already in correct directory
+} else {
+  stop("interGenes.txt not found. Place it in the data/ directory.")
+}
 
 #??ȡĿ¼??????"normalize.txt"??β???ļ?
 files=dir()
@@ -80,13 +90,3 @@ trainOut=rbind(id=colnames(trainExp), trainExp)
 write.table(trainOut, file="data.train.txt", sep="\t", quote=F, col.names=F)
 testOut=rbind(id=colnames(testExp), testExp)
 write.table(testOut, file="data.test.txt", sep="\t", quote=F, col.names=F)
-
-
-######??????ѧ??: https://www.biowolf.cn/
-######?γ?��??1: https://shop119322454.taobao.com
-######?γ?��??2: https://ke.biowolf.cn
-######?γ?��??3: https://ke.biowolf.cn/mobile
-######?⿡??ʦ????: seqbio@foxmail.com
-######?⿡??ʦ΢??: eduBio
-
-

@@ -9,7 +9,7 @@
 # -------------------------------
 library(IOBR)
 
-setwd("C:/Users/1/Desktop/alpha")
+setwd("../data")  # Adjust to point to the data/ directory
 
 # Copy expression matrix to alpha
 file.copy("C:/Users/1/Desktop/6/merge.normalize.txt",

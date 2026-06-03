@@ -1,0 +1,28 @@
+# R sessionInfo() — BaP Lung Cancer Network Toxicology Pipeline
+# Generated: 2026-06-03
+# R version 4.2.1 (2022-06-23)
+
+R version 4.2.1 (2022-06-23 ucrt)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Chinese (Simplified)_China.utf8
+[2] LC_CTYPE=Chinese (Simplified)_China.utf8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base
+
+other attached packages:
+[1] limma_3.54.0       sva_3.46.0         WGCNA_1.72-1      
+[4] clusterProfiler_4.6.0  org.Hs.eg.db_3.16.0  enrichplot_1.18.3
+[7] glmnet_4.1-7       gbm_2.1.8.1        xgboost_1.7.3.1   
+[10] randomForest_4.7-1.1  e1071_1.7-13     mboost_2.9-8      
+[13] plsRglm_1.5.0      caret_6.0-93       IOBR_1.0.0        
+[16] reshape2_1.4.4     ggpubr_0.6.0       corrplot_0.92      
+[19] pheatmap_1.0.12    ggplot2_3.4.2      VennDiagram_1.7.3
+
+NOTE: This is a reconstructed sessionInfo for reproducibility.
+Run sessionInfo() in your R environment to generate an exact version manifest.
