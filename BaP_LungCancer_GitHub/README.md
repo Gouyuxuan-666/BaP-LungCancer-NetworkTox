@@ -8,7 +8,7 @@ This repository contains the complete computational pipeline for our study ident
 
 - Network toxicology (ChEMBL, SEA, SwissTargetPrediction)
 - WGCNA co-expression analysis
-- 113 machine learning models (12 base algorithms, pairwise combinations)
+- 113 machine learning models (12 base thms, pairwislty， combinations)
 - SHAP feature importance analysis
 - Molecular docking (AutoDock Vina)
 - Molecular dynamics simulation (GROMACS 2022, 200 ns)
