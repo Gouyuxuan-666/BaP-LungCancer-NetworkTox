@@ -1,0 +1,20 @@
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Output
+output/
+figures/*.pdf
+figures/*.png
+
+# Data (too large; download from GEO)
+data/*.txt.gz
+data/*.txt
+data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
