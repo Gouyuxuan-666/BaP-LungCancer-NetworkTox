@@ -233,13 +233,3 @@ hm <- SimpleHeatmap(Cindex_mat = AUC_mat,    #AUCֵ�ľ���
 pdf(file="model.AUCheatmap.pdf", width=cellwidth * ncol(AUC_mat) + 6, height=cellheight * nrow(AUC_mat) * 0.45)
 draw(hm, heatmap_legend_side="right", annotation_legend_side="right")
 dev.off()
-
-
-######������ѧ��: https://www.biowolf.cn/
-######�γ�����1: https://shop119322454.taobao.com
-######�γ�����2: https://ke.biowolf.cn
-######�γ�����3: https://ke.biowolf.cn/mobile
-######�⿡��ʦ����: seqbio@foxmail.com
-######�⿡��ʦ΢��: eduBio
-
-

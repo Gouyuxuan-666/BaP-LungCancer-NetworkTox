@@ -12,8 +12,8 @@ library(IOBR)
 setwd("../data")  # Adjust to point to the data/ directory
 
 # Copy expression matrix to alpha
-file.copy("C:/Users/1/Desktop/6/merge.normalize.txt",
-          "C:/Users/1/Desktop/alpha/merge.normalize.txt", overwrite = TRUE)
+# merge.normalize.txt should be in the data/ directory
+          # Adjust the read.table path below to point to your merge.normalize.txt
 
 # Load
 cat("Loading expression matrix...\n")

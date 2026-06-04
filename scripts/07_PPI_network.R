@@ -9,7 +9,7 @@ library(igraph)
 library(ggraph)
 library(tidyverse)
 
-setwd("C:/Users/1/Desktop/17(1)")
+setwd("../data")  # Adjust to point to your data directory
 
 # ---- 1. Load intersection genes ----
 genes <- read.table("interGenes.txt", header = FALSE, stringsAsFactors = FALSE)[,1]
