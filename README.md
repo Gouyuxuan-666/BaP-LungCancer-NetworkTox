@@ -2,6 +2,9 @@
 
 **Identification of Candidate Molecular Mediators in Benzo[a]pyrene-Associated Lung Cancer through Network Toxicology, Ensemble Machine Learning, and SHAP Analysis**
 
+**Author:** Gou Yuxuan  
+**Affiliation:** Xinjiang Second Medical College
+
 ## Overview
 
 This repository contains the complete computational pipeline for our study identifying ADH1B as a candidate mediator of BaP-associated lung carcinogenesis. The pipeline integrates:
