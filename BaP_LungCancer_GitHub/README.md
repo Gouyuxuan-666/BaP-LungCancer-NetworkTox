@@ -60,7 +60,7 @@ Data files are downloaded automatically from NCBI GEO (see `data/README.md`).
 
 ## Citation
 
-Manuscript submitted for publication. If you use this code, please cite:本代码原作者为勾雨轩,编写此代码时就读于新疆第二医学院麻醉学本科 (Xinjiang Second Medicial College)
+Manuscript submitted for publication. If you use this code, please cite:本代码原作者为勾雨轩,编写此代码时就读于新疆第二医学院麻醉学本科 大学一年级  (Xinjiang Second Medicial College)
 > [AUTHOR :勾雨轩 ] Identification of Candidate Molecular Mediators in Benzo[a]pyrene-Associated Lung Cancer through Network Toxicology, Ensemble Machine Learning, and SHAP Analysis. (2026)如需使用本论文代码或需进行复现,请您确保在代码编写者同意之后再进行复现或改写且不得用于商业用途(如要用于商业用途请联系作者)
 
 ## License
